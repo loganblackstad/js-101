@@ -16,7 +16,7 @@ Write a function hello which given a name, says hello to the name. Use the follo
 function hello(name) {
   // put your code here
 }
-hello('Mustache');
+hello("Mustache");
 ```
 
 Make the above program print the following to the console:
@@ -36,7 +36,7 @@ Write a madlib function, which is given a name and a subject. It will return(not
 Example:
 
 ```js
-madlib('Anushka', 'art');
+madlib("Anushka", "art");
 ```
 
 Output
@@ -56,10 +56,10 @@ Write a function tipAmount that is given the bill amount and the level of servic
 > bad -> 10%
 
 ```js
-tipAmount(100, 'good');
+tipAmount(100, "good");
 // 20
 
-tipAmount(40, 'fair');
+tipAmount(40, "fair");
 // 6
 ```
 
@@ -80,9 +80,9 @@ Write a function totalAmount that takes the same arguments as tipAmount except i
 Write a function splitAmount that takes the bill amount and the level of service, and the number of people to split the bill between. It will return the final amount for each person.
 
 ```js
-splitAmount(100, 'good', 5);
+splitAmount(100, "good", 5);
 // 24
 
-splitAmount(40, 'fair', 2);
+splitAmount(40, "fair", 2);
 // 23
 ```
